@@ -12,3 +12,4 @@ def load_housing_data():
         with tarfile.open(tarball_path) as housing_tarball:
             housing_tarball.extractall(path="datasets")
     return pd.read_csv(Path("datasets/housing/housing.csv"))
+cal
